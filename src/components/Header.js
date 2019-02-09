@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
@@ -11,9 +12,9 @@ const Header = (props) => (
                 <h1>Cazamundo</h1>
                 <h3>--- The world as our playground ---</h3>
                 <p>Two people, our passions combined in one company.
-                    Software development with <a  target="_blank" rel="noopener noreferrer" href="https://easybird.be"> Easybird</a>,
-                    Crafting gold with<a  target="_blank" rel="noopener noreferrer" href="https://vogelvrij.be"> Atelier VogelVrij</a> and
-                    <a  target="_blank" rel="noopener noreferrer" href="https://www.homeaway.nl/vakantiewoning/p6790598"> Mountain Lovers</a></p>
+                    Software development with <OutboundLink  target="_blank" rel="noopener noreferrer" href="https://easybird.be"> Easybird</OutboundLink>,
+                    Crafting gold with<OutboundLink  target="_blank" rel="noopener noreferrer" href="https://vogelvrij.be"> Atelier VogelVrij</OutboundLink> and
+                    <OutboundLink  target="_blank" rel="noopener noreferrer" href="https://www.homeaway.nl/vakantiewoning/p6790598"> Mountain Lovers</OutboundLink></p>
             </div>
         </div>
         <nav>
