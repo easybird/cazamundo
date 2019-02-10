@@ -10,7 +10,7 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Cazamundo</h1>
-                <h3>--- The world as our playground ---</h3>
+                <h3>- The world as our playground -</h3>
                 <p>Two people, our passions combined in one company.
                     Software development with <OutboundLink  target="_blank" rel="noopener noreferrer" href="https://easybird.be"> Easybird</OutboundLink>,
                     Crafting gold with<OutboundLink  target="_blank" rel="noopener noreferrer" href="https://vogelvrij.be"> Atelier VogelVrij</OutboundLink> and
